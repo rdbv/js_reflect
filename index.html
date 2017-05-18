@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+
+<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="util.js"></script>
+<script src="main.js"></script>
+<script src="app.js"></script>
+
+<style>
+    #cv {
+        position: absolute;
+        //top : 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; 
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    body {
+        background-color : black;
+    }
+
+    * {
+        border-radius: 0 !important;
+    }
+
+</style>
+
+<head>
+    <title> Sim0 </title>
+</head>
+    
+<body>
+
+    <div id="pan0" class="panel panel-default">
+        <button type="button" id = 'rb0' class="btn btn-default btn-xs">Ray</button>
+        <button type="button" id = 'bb0' class="btn btn-default btn-xs">Beam</button>
+        <button type="button" id = 'mb0' class='btn btn-default btn-xs'>Mirror</button>
+        <button type="button" id = 'nb0' class="btn btn-default btn-xs">None</button>
+    </div>
+
+    <canvas id="cv">
+
+    <script>
+    w.app = new App();
+    app.run();
+    </script>
+
+</body>
+
+</html>
